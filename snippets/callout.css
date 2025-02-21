@@ -85,6 +85,7 @@
 .callout[data-callout="wip"] { --callout-icon: lucide-notepad-text-dashed; }
 .callout[data-callout="tutorial"] { --callout-icon: lucide-notebook-text; }
 .callout[data-callout="part:"] { --callout-icon: lucide-puzzle; }
+.callout[data-callout="cal"] { --callout-icon: lucide-calendar; }
 .callout[data-callout^="mark"] {
 	--callout-icon: lucide-bookmark;
 
@@ -213,6 +214,11 @@
 		}
 	}
 
+	.callout[data-callout="cal"] {
+		--callout-color: var(--ctp-latte-sky-rgb);
+		border: 2px dashed rgba(var(--ctp-latte-sky-rgb), 0.5);
+	}
+
 	.callout[data-callout^="mark"] {
 		--callout-color: var(--ctp-latte-red-rgb);
 		border: 2px dashed rgba(var(--ctp-latte-red-rgb), 0.5);
@@ -339,6 +345,11 @@
 		.callout-content {
 			color: rgb(var(--ctp-mocha-subtext2-rgb));
 		}
+	}
+
+	.callout[data-callout="cal"] {
+		--callout-color: var(--ctp-mocha-sky-rgb);
+		border: 2px dashed rgba(var(--ctp-mocha-sky-rgb), 0.5);
 	}
 
 	.callout[data-callout^="mark"] {
