@@ -1,16 +1,15 @@
 body {
-    --bgHeader: var(--ctp-latte-crust-rgb);
-    --bgTable: var(--ctp-latte-base-rgb);
-    --bgTHead: var();
-    --bgTHRow: var();
-    --bgTBody: var();
-    --bgTBRow: var(--ctp-latte-base-rgb);
-    --bgTBRowAlt: var(--ctp-latte-surface0-rgb);
+  --bgTable: var(--ctp-latte-base-rgb);
+  --bgTHead: var(--ctp-latte-surface0-rgb);
+  --bgTHRow: var();
+  --bgTBody: var();
+  --bgTBRow: var(--ctp-latte-base-rgb);
+  --bgTBRowAlt: var(--ctp-latte-mantle-rgb);
 
-    --borderTH: var(--ctp-latte-surface2-rgb);
-    --borderTCell: var(--ctp-latte-surface2-rgb);
+  --borderTH: var(--ctp-latte-surface2-rgb);
+  --borderTCell: var(--ctp-latte-surface2-rgb);
 
-    --colorHeader: var(--ctp-latte-text-rgb);
+  --colorHeader: var(--ctp-latte-text-rgb);
 }
 
 table {
@@ -21,7 +20,7 @@ table {
     thead {
         tr {
             th {
-                background: rgb(var(--bgHeader)) !important;
+                background: rgb(var(--bgTHead)) !important;
                 color: rgb(var(--colorHeader)) !important;
 
                 border-color: rgb(var(--borderTH)) !important;
@@ -45,13 +44,12 @@ table {
 }
 
 .theme-light {
-    --bgHeader: var(--ctp-latte-crust-rgb);
     --bgTable: var(--ctp-latte-base-rgb);
-    --bgTHead: var();
+    --bgTHead: var(--ctp-latte-surface0-rgb);
     --bgTHRow: var();
     --bgTBody: var();
     --bgTBRow: var(--ctp-latte-base-rgb);
-    --bgTBRowAlt: var(--ctp-latte-surface0-rgb);
+    --bgTBRowAlt: var(--ctp-latte-mantle-rgb);
 
     --borderTH: var(--ctp-latte-surface2-rgb);
     --borderTCell: var(--ctp-latte-surface2-rgb);
@@ -60,9 +58,8 @@ table {
 }
 
 .theme-dark {
-    --bgHeader: var(--ctp-mocha-mantle-rgb);
     --bgTable: var(--ctp-mocha-base-rgb);
-    --bgTHead: var();
+    --bgTHead: var(--ctp-mocha-crust-rgb);
     --bgTHRow: var();
     --bgTBody: var();
     --bgTBRow: var(--ctp-mocha-base-rgb);
@@ -73,71 +70,3 @@ table {
 
     --colorHeader: var(--ctp-mocha-text-rgb);
 }
-
-/* table {
-    margin: 4px;
-  }
-  
-  table thead tr th {
-    padding: 0.5rem !important;
-  }
-  
-  table tbody tr td {
-    padding: 0.5rem 0.75rem !important;
-  }
-  
-  .theme-light {
-    table {
-      background: var(--background-primary) !important;
-    }
-  
-    table thead {
-      background: var(--background-secondary-alt) !important;
-    }
-  
-    table thead tr th {
-      border-color: var(--background-modifier-border) !important;
-    }
-  
-    table tbody {
-      background: var(--background-primary) !important;
-    }
-  
-    table tbody tr:nth-child(even) {
-      background: var(--background-primary-alt) !important;
-    }
-  
-    table tbody tr td {
-      border-color: var(--background-modifier-border) !important;
-      color: var(--text-faint) !important;
-    }
-  }
-  
-  .theme-dark {
-    table {
-      background: var(--background-primary) !important;
-      box-shadow: 0px 1px 3px 1px rgba(0,0,0,0.2);
-    }
-  
-    table thead {
-      background: var(--background-secondary-alt) !important;
-    }
-  
-    table thead tr th {
-      border-color: var(--background-secondary-alt) !important;
-    }
-  
-    table tbody {
-      background: var(--background-primary) !important;
-    }
-  
-    table tbody tr:nth-child(even) {
-      background: var(--background-primary-alt) !important;
-    }
-  
-    table tbody tr td {
-      border-color: var(--background-secondary-alt) !important;
-      color: var(--text-faint) !important;
-    }
-  }
-   */

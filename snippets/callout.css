@@ -215,8 +215,8 @@
 	}
 
 	.callout[data-callout="cal"] {
-		--callout-color: var(--ctp-latte-sky-rgb);
-		border: 2px dashed rgba(var(--ctp-latte-sky-rgb), 0.5);
+		--callout-color: var(--ctp-latte-pink-rgb);
+		border: 1px solid rgba(var(--ctp-latte-pink-rgb), 0.5);
 	}
 
 	.callout[data-callout^="mark"] {
@@ -348,8 +348,8 @@
 	}
 
 	.callout[data-callout="cal"] {
-		--callout-color: var(--ctp-mocha-sky-rgb);
-		border: 2px dashed rgba(var(--ctp-mocha-sky-rgb), 0.5);
+		--callout-color: var(--ctp-mocha-pink-rgb);
+		border: 1px solid rgba(var(--ctp-mocha-pink-rgb), 0.5);
 	}
 
 	.callout[data-callout^="mark"] {
