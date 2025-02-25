@@ -228,10 +228,10 @@ This is a <kbd>SHIFT</kbd> keyboard key. Unfortunately, this has to be done in H
 
 ***
 
-# Links & Images
+> [!mark.green] Links & Images
+> Complete
 
-> [!mark.green] Links
-> CSS Complete
+# Links & Images
 
 ## Links
 
@@ -247,14 +247,21 @@ This is an [external](https://google.com) link
 
 ***
 
-> [!mark.peach] Images
-> Needs complete work
-
 ## Images
 
-image in code `![Gramp's Porsche](/gramps-porsche.png)` block
+image in code `![Gramp's Porsche](gramps-porsche.png)` block
 
-[![[gramps-porsche.png]]](http://www.google.com)Gramp's Porsche
+[![Gramp's Porsche](gramps-porsche.png)](https://google.com)
+
+![[gramps-porsche.png | Gramp's Porsche]]
+
+![[gramps-porsche.png]]
+
+[![Sway Screenshot](sway-screenshot.sh-001.png)](https://google.com)
+
+![[sway-screenshot.sh-001.png | Sway Screenshot]]
+
+![[sway-screenshot.sh-001.png]]
 
 ***
 
@@ -295,7 +302,7 @@ The HTML specification is maintained by the W3C. All abbreviations are supported
 ***
 
 > [!mark.peach] Tables
-> Work in progress
+> Work in progress - Proposal complete ... needs review
 
 # Tables
 
@@ -333,17 +340,36 @@ Here is a footnote inside `[^3]` a code block
 
 ***
 
+> [!mark.peach] Lists
+> WIP
+
 # Lists
+
+## Ordered List
 
 1. Ordered List Item 1
 2. Ordered List Item 2
 3. Ordered List Item 3
 
+***
+
+## Unordered List
+
 - Unordered List Item 1
 - Unordered List Item 2
 - Unordered List Item 3
 
+***
+
 ## Task List
+
+- [ ] Todo List Item 1
+- [ ] Todo List Item 2
+- [ ] Todo List Item 3
+
+***
+
+## Specials
 
 - [ ] to-do
 - [/] incomplete
