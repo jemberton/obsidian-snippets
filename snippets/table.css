@@ -22,6 +22,7 @@ table {
             th {
                 background: rgb(var(--bgTHead)) !important;
                 color: rgb(var(--colorHeader)) !important;
+                padding: 0.5rem !important;
 
                 border-color: rgb(var(--borderTH)) !important;
             }
@@ -33,7 +34,8 @@ table {
           background: rgb(var(--bgTBRow)) !important;
           
           td {
-              border-color: rgb(var(--borderTCell)) !important;
+            border-color: rgb(var(--borderTCell)) !important;
+            padding: 0.5rem !important;
           }
 
           &:nth-child(even) {
