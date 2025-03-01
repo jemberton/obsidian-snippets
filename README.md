@@ -4,3 +4,4 @@ This is a collection of snippets for Obsidian. Currently, the supported themes a
 
 There are several files for all the changes. This can be a bit unruly to manage, but offers incremental use if desired. Use them at your discretion!
 
+Assets for the test page are missing currently
