@@ -39,6 +39,7 @@
     text-align: center;
     overflow: visible;
     height: 0px;
+    margin: var(--size-4-12) 0 !important;
 
     &::after {
         content: "§";
