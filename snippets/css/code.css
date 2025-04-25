@@ -1,0 +1,61 @@
+pre.code-styler-pre {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: start !important;
+  align-items: center !important;
+  margin: 0.5rem 0 !important;
+}
+
+pre.code-styler-pre button {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: start !important;
+  align-items: center !important;
+  margin-top: 0.5rem !important;
+  background: #11111b !important;
+}
+
+pre.code-styler-pre button:hover {
+  cursor: pointer !important;
+}
+
+.code-styler-header-container {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: start !important;
+  align-items: center !important;
+}
+
+.code-styler-header-container::after {
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-chevron-right'%3E%3Cpath d='m9 18 6-6-6-6'/%3E%3C/svg%3E");
+  background: var(--interactive-accent) !important;
+  /* mask-image: none; */
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 24px !important;
+  height: 24px !important;
+  scale: 0.6;
+}
+
+pre.code-styler-pre.code-styler-folded .code-styler-header-container::after {
+  transform: rotate(90deg) !important;
+}
+
+.code-styler-header-container:hover:after {
+  scale: 0.75;
+  cursor: pointer;
+}
+
+pre.code-styler-pre:has(.code-styler-header-container) {
+  flex-direction: column !important;
+  display: flex !important;
+  justify-content: start !important;
+  align-items: stretch !important;
+}
+
+pre.code-styler-pre:has(.code-styler-header-container) button {
+  margin-top: 0 !important;
+}
+

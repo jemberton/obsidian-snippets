@@ -1,0 +1,8 @@
+kbd {
+  color: var(--text-normal); background: var(--interactive-normal);
+  padding: 0.25em 0.5em;
+  box-shadow: 0px 2px 1px rgba(0,0,0,0.4);
+  border: 1px solid var(--background-modifier-border);
+  line-height: 2rem;
+}
+

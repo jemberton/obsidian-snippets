@@ -1,0 +1,25 @@
+div.card-header[slot="header"] {
+  padding: 0.15rem 0.35rem;
+  padding-left: 0;
+  
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+}
+
+div.projects-main {
+    --s: 100px;
+    /* --c2: #11111b; /* crust */
+    --c2: #181825; /* mantle */
+    --c1: #1e1e2e; /* base */
+    /* --c1: #181825; /* mantle */
+    
+    --_g: #0000 90deg,var(--c1) 0;
+    background: 
+      conic-gradient(from 90deg at 2px 2px,var(--_g)),
+      conic-gradient(from 90deg at 1px 1px,var(--_g)),
+      var(--c2);
+    background-size: var(--s) var(--s), calc(var(--s)/5) calc(var(--s)/5);
+}

@@ -1,0 +1,91 @@
+blockquote {
+  background: var(--background-secondary) !important;
+  padding: 1rem !important;
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+  border-width: 3px !important;
+  border-color: var(--color-blue) !important;
+}
+
+.callout {
+  padding: 0.5rem;
+  margin-bottom: 1.25rem !important;
+}
+
+.callout-icon {
+  margin-right: 0.5rem;
+}
+
+.callout[data-callout="gallery"] {
+    --callout-color: 203, 166, 247;
+    --callout-icon: lucide-gallery-thumbnails;
+}
+
+.callout[data-callout="ghost"] {
+    --callout-color: 205, 214, 244;
+    --callout-icon: lucide-ghost;
+    border: 1px dashed rgba(205, 214, 244, 0.5);
+}
+
+.callout[data-callout="gallery"] .callout-content p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    background: rgba(0,0,0,0.1);
+    padding: 1rem;
+    margin: 0.25rem;
+    flex-wrap: wrap;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 0.25rem;
+}
+
+.callout[data-callout="gallery"] .callout-content p > * {
+    margin: 1rem;
+}
+
+.callout[data-callout="tutorial"] {
+  --callout-color: 203, 166, 247;
+  --callout-icon: lucide-book-check;
+  border: 1px dashed rgb(203, 166, 247);
+}
+
+.callout[data-callout="wip"] {
+  --callout-icon: lucide-construction;
+  --callout-color: 250, 179, 135;
+  border: 1px dashed rgba(250, 179, 135, 0.5);
+}
+
+.callout[data-callout="fixme"] {
+  --callout-icon: lucide-pin;
+  --callout-color: 243, 139, 168;
+  border: 1px dashed rgba(243, 139, 168, 0.5);
+}
+
+.callout[data-callout="inline"] {
+  --callout-icon: none;
+  --callout-color: transparent;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.callout[data-callout="inline"] .callout-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: start;
+  gap: 1rem;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.callout[data-callout="inline"] .callout-content table { margin: 0; }
+
+.callout[data-callout="inline"] .callout-title {
+  display: none;
+}
+
+.callout-title {}
+.callout-content {}
+.callout.is-collapsed .callout-title {}
