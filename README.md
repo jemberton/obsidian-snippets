@@ -10,23 +10,23 @@ Assets for the test page are missing currently
 
 The internal names of the installed plugins are below. The plugins marked with an asterisk are currenlty disabled in my flow.
 
-abbreviations-mark
-booknav
-cmdr
-code-styler
-dataview
-emoji-shortcodes
-highlightr-plugin
-iconic
-image-captions
-lilypond*
-obsidian-discordrpc*
-obsidian-editor-shortcuts*
-obsidian-excalidraw-plugin
-obsidian-git
-obsidian-latex-suite
-obsidian-projects
-obsidian-style-settings
-table-editor-obsidian
-templater-obsidian
+- abbreviations-mark
+- booknav
+- cmdr
+- code-styler
+- dataview
+- emoji-shortcodes
+- highlightr-plugin
+- iconic
+- image-captions
+- lilypond*
+- obsidian-discordrpc*
+- obsidian-editor-shortcuts*
+- obsidian-excalidraw-plugin
+- obsidian-git
+- obsidian-latex-suite
+- obsidian-projects
+- obsidian-style-settings
+- table-editor-obsidian
+- templater-obsidian
 
